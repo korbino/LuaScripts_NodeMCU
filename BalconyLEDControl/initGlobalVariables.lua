@@ -1,5 +1,4 @@
 -- ==Init all global Variables==
---ledBrightness = nil
  
 --==Functions:=====
 --init led britness 
@@ -23,6 +22,7 @@ function initLedBrightnessVariable ()
   end) --end of http request   
 end --end of function
 
+--init function
 initLedBrightnessVariable()
 
 
