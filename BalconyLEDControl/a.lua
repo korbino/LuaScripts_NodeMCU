@@ -1,5 +1,9 @@
 -- a.lua file
-print("hello from A file");
+print("DEBUG: this is a.lua file")
 
-print(ledBrightness)
-initLedBrightnessVariable()
+function aPrint()
+    print("Hello from a.Print function!")
+end
+
+--carbage collector:
+collectgarbage()
